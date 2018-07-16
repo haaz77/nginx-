@@ -1,0 +1,32 @@
+[?1049h[1;49r(B[m[4l[?7h[H[2JEvery 2.0s: curl http://35.238.113.221/stats[1;155HTue Jul 10 12:17:16 2018[3;3H% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current[4;34HDload  Upload   Total   Spent    Left  Speed[5;4H0     0    0     0    0     0[39G0[46G0 --:--:-- --:--:-- --:--:--     0 100    48  100    48    0     0    610[125G0 --:--:-- --:--:-- --:--:--   615[6d{"mystream":{"current_viewers":1,"uptime":3328}}[49;178H[1;173H8[5;118H6[5;157H23[6;45H31[49;178H[49;1H[?1049l[?1l>{"mystream":{"current_viewers":1,"uptime":3830}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":3830}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":3830}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":3830}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":3830}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4126}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4126}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4126}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4126}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4126}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4127}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+{"mystream":{"current_viewers":1,"uptime":4128}}We downloaded 48 bytes
+[?1049h[1;49r(B[m[4l[?7h[49;1H[?1049l[?1l>[49;1H[?1049l[?1l>[?1049h[1;49r(B[m[4l[?7h[49;1H[?1049l[?1l>[?1049h[1;49r(B[m[4l[?7h[49;1H[?1049l[?1l>

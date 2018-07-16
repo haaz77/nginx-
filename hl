@@ -1,0 +1,6 @@
+#!/bin/bash
+#sleep 5400
+for (( ; ; ))
+do
+ curl -w 'We downloaded %{size_download} bytes\n' http://35.226.157.64/online_status 
+done

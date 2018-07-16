@@ -1,0 +1,57 @@
+---
+apiVersion: "extensions/v1beta1"
+kind: "Deployment"
+metadata:
+  name: "nginx2"
+  namespace: "default"
+  labels:
+    app: "nginx2"
+spec:
+ affinity:
+  podAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+    - labelSelector:
+        matchExpressions:
+        - key: security
+          operator: In
+          values:
+          - S1
+      topologyKey: failure-domain.beta.kubernetes.io/zone
+  podAntiAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+    - weight: 100
+      podAffinityTerm:
+        labelSelector:
+          matchExpressions:
+          - key: security
+            operator: In
+            values:
+            - S2
+  replicas: 3
+  selector:
+    matchLabels:
+      app: "nginx2"
+  template:
+    metadata:
+      labels:
+        app: "nginx2"
+    spec:
+      containers:
+      - name: "hasnginx"
+        image: "haaz77/hasnginx"
+---
+apiVersion: "autoscaling/v1"
+kind: "HorizontalPodAutoscaler"
+metadata:
+  name: "nginx2-hpa"
+  namespace: "default"
+  labels:
+    app: "nginx2"
+spec:
+  scaleTargetRef:
+    kind: "Deployment"
+    name: "nginx2"
+    apiVersion: "apps/v1beta1"
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80
