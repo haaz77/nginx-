@@ -1,0 +1,1 @@
+./configure  --with-http_stub_status_module  --with-http_secure_link_module --with-http_mp4_module --with-file-aio --with-threads --with-http_ssl_module --with-http_v2_module --with-ld-opt=-Wl,-E --add-module=/tmp/nginx-secure-token-module  --add-module=/tmp/nginx-rtmp-module  
